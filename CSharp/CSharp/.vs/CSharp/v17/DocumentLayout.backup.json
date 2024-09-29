@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\CSharp\\CSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5802E17-2888-43DE-8D73-61D71E8E9204}|1.1\\1.1.csproj|c:\\users\\acer\\source\\dhcode\\it008_1\\giao_trinh\\csharp\\csharp\\1.1\\0_program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5802E17-2888-43DE-8D73-61D71E8E9204}|1.1\\1.1.csproj|solutionrelative:1.1\\0_program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5802E17-2888-43DE-8D73-61D71E8E9204}|1.1\\1.1.csproj|c:\\users\\acer\\source\\dhcode\\it008_1\\giao_trinh\\csharp\\csharp\\1.1\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5802E17-2888-43DE-8D73-61D71E8E9204}|1.1\\1.1.csproj|solutionrelative:1.1\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5802E17-2888-43DE-8D73-61D71E8E9204}|1.1\\1.1.csproj|c:\\users\\acer\\source\\dhcode\\it008_1\\giao_trinh\\csharp\\csharp\\1.1\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5802E17-2888-43DE-8D73-61D71E8E9204}|1.1\\1.1.csproj|solutionrelative:1.1\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5802E17-2888-43DE-8D73-61D71E8E9204}|1.1\\1.1.csproj|c:\\users\\acer\\source\\dhcode\\it008_1\\giao_trinh\\csharp\\csharp\\1.1\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5802E17-2888-43DE-8D73-61D71E8E9204}|1.1\\1.1.csproj|solutionrelative:1.1\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Circle.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\CSharp\\CSharp\\1.1\\Circle.cs",
+              "RelativeDocumentMoniker": "1.1\\Circle.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\CSharp\\CSharp\\1.1\\Circle.cs*",
+              "RelativeToolTip": "1.1\\Circle.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T12:53:13.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\CSharp\\CSharp\\1.1\\Rectangle.cs",
+              "RelativeDocumentMoniker": "1.1\\Rectangle.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\CSharp\\CSharp\\1.1\\Rectangle.cs",
+              "RelativeToolTip": "1.1\\Rectangle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T12:49:44.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "0_Program.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\CSharp\\CSharp\\1.1\\0_Program.cs",
+              "RelativeDocumentMoniker": "1.1\\0_Program.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\CSharp\\CSharp\\1.1\\0_Program.cs",
+              "RelativeToolTip": "1.1\\0_Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T12:43:20.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Square.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\CSharp\\CSharp\\1.1\\Square.cs",
+              "RelativeDocumentMoniker": "1.1\\Square.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\CSharp\\CSharp\\1.1\\Square.cs",
+              "RelativeToolTip": "1.1\\Square.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T12:42:22.105Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
