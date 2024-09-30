@@ -15,8 +15,13 @@ namespace _2._1
         public void CreateTreeView(TreeView treeView)
         {
             TreeNode tnMyComputer;
+            const int RemovableDisk = 2;
+            const int LocalDisk = 3;
+            const int NetworkDisk = 4;
+            const int CDDisk = 5;
+
             // Tạo một node mới
-            tnMyComputer = new TreeNode("My Computer", 0, 0);
+            tnMyComputer = new TreeNode("This PC", 0, 0);
             // Xóa Treeview
             treeView.Nodes.Clear();
             treeView.Nodes.Add(tnMyComputer);
@@ -28,8 +33,37 @@ namespace _2._1
             foreach (ManagementObject mo in queryCollection.Cast<ManagementObject>())
             {
                 TreeNode diskTreeNode;
+                int imageIndex, selectIndex;
+                // Gán các icon cho các ổ đĩa dựa trên các imageIndex và selectIndex
+                switch (int.Parse(mo["DriveType"].ToString()))
+                {
+                    case RemovableDisk:
+                        imageIndex = 1;
+                        selectIndex = 1;
+                        break;
+                    case LocalDisk:
+                        imageIndex = 2;
+                        selectIndex = 2;
+                        break;
+                    case CDDisk:
+                        imageIndex = 3;
+                        selectIndex = 3;
+                        break;
+                    case NetworkDisk:
+                        imageIndex = 4;
+                        selectIndex = 4;
+                        break;
+                    default: // Thư mục
+                        imageIndex = 5; // Đóng
+                        selectIndex = 6; // Mở
+                        break;
+                }
+                diskTreeNode = new TreeNode(mo["Name"].ToString()+"\\", imageIndex, selectIndex);
+                /*
                 // Tạo một TreeNode cho từng đĩa
                 diskTreeNode = new TreeNode(mo["Name"].ToString() + "\\", 0, 0);
+                // Bị thay thế bởi diskTreeNode bên trên
+                */
                 // Chèn vào Treeview
                 nodeCollection.Add(diskTreeNode);
             }
@@ -37,7 +71,7 @@ namespace _2._1
 
         public bool ShowFolderTree(TreeView treeView, TreeNode currentNode)
         {
-            if(currentNode.Text != "My Computer")
+            if(currentNode.Text != "This PC")
             {
                 try
                 {
@@ -53,7 +87,7 @@ namespace _2._1
                             string strName = GetName(stringDir);
                             TreeNode nodeDir;
                             // Tạo các node cho thư mục
-                            nodeDir = new TreeNode(strName, 0, 0);
+                            nodeDir = new TreeNode(strName, 5, 6);
                             currentNode.Nodes.Add(nodeDir);
                         }
                     }
@@ -74,10 +108,12 @@ namespace _2._1
             }
             return false;
         }
+
         public string GetFullPath(string strPath)
         {
-            return strPath.Replace("My Computer\\", "").Replace("\\\\", "\\");
+            return strPath.Replace("This PC\\", "").Replace("\\\\", "\\");
         }
+
         public string GetName(string strPath)
         {
             string[] strSplit = strPath.Split('\\');

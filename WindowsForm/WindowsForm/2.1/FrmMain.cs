@@ -22,5 +22,13 @@ namespace _2._1
         {
             clsTreeListView.CreateTreeView(this.treeView);
         }
+
+        private void treeView_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            // Lấy ổ đĩa hoặc thư mục đang được chọn
+            TreeNode currentNode = e.Node;
+            if (currentNode.Text != "This PC")
+                clsTreeListView.ShowFolderTree(this.treeView, currentNode);
+        }
     }
 }
