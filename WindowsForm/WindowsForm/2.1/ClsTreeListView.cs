@@ -21,7 +21,7 @@ namespace _2._1
             // Tập hợp các Node của tnMyComputer
             TreeNodeCollection nodeCollection = tnMyComputer.Nodes;
             // Lấy danh sách các ổ đĩa
-            ManagementObjectSearcher query = new ManagementObjectSearcher("Select * From Wìn_LogicalDisk");
+            ManagementObjectSearcher query = new ManagementObjectSearcher("Select * From Win32_LogicalDisk");
             ManagementObjectCollection queryCollection = query.Get();
             foreach (ManagementObject mo in queryCollection.Cast<ManagementObject>())
             {
