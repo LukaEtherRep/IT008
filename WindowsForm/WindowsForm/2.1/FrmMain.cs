@@ -12,9 +12,15 @@ namespace _2._1
 {
     public partial class FrmMain : Form
     {
+        private ClsTreeListView clsTreeListView = new ClsTreeListView();
         public FrmMain()
         {
             InitializeComponent();
+        }
+
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+            clsTreeListView.CreateTreeView(this.treeView);
         }
     }
 }
