@@ -1,0 +1,10 @@
+C:\Users\ACER\source\DHCode\IT008_1\Giao_Trinh\WindowsForm\WindowsForm\2.1\bin\Debug\2.1.exe.config
+C:\Users\ACER\source\DHCode\IT008_1\Giao_Trinh\WindowsForm\WindowsForm\2.1\bin\Debug\2.1.exe
+C:\Users\ACER\source\DHCode\IT008_1\Giao_Trinh\WindowsForm\WindowsForm\2.1\bin\Debug\2.1.pdb
+C:\Users\ACER\source\DHCode\IT008_1\Giao_Trinh\WindowsForm\WindowsForm\2.1\obj\Debug\WindowExplorer.csproj.AssemblyReference.cache
+C:\Users\ACER\source\DHCode\IT008_1\Giao_Trinh\WindowsForm\WindowsForm\2.1\obj\Debug\_2._1.FrmMain.resources
+C:\Users\ACER\source\DHCode\IT008_1\Giao_Trinh\WindowsForm\WindowsForm\2.1\obj\Debug\_2._1.Properties.Resources.resources
+C:\Users\ACER\source\DHCode\IT008_1\Giao_Trinh\WindowsForm\WindowsForm\2.1\obj\Debug\WindowExplorer.csproj.GenerateResource.cache
+C:\Users\ACER\source\DHCode\IT008_1\Giao_Trinh\WindowsForm\WindowsForm\2.1\obj\Debug\WindowExplorer.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\DHCode\IT008_1\Giao_Trinh\WindowsForm\WindowsForm\2.1\obj\Debug\2.1.exe
+C:\Users\ACER\source\DHCode\IT008_1\Giao_Trinh\WindowsForm\WindowsForm\2.1\obj\Debug\2.1.pdb
