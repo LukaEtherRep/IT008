@@ -78,6 +78,12 @@
             this.imglstTreeView.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imglstTreeView.ImageStream")));
             this.imglstTreeView.TransparentColor = System.Drawing.Color.Transparent;
             this.imglstTreeView.Images.SetKeyName(0, "this_pc_icon__windows_11__by_satellitedish555_dgv3zid.png");
+            this.imglstTreeView.Images.SetKeyName(1, "icons8-floppy-disk-48.png");
+            this.imglstTreeView.Images.SetKeyName(2, "icons8-ssd-48.png");
+            this.imglstTreeView.Images.SetKeyName(3, "icons8-cd-48.png");
+            this.imglstTreeView.Images.SetKeyName(4, "icons8-google-drive-48.png");
+            this.imglstTreeView.Images.SetKeyName(5, "icons8-folder-48.png");
+            this.imglstTreeView.Images.SetKeyName(6, "icons8-opened-folder-48.png");
             // 
             // listView
             // 
