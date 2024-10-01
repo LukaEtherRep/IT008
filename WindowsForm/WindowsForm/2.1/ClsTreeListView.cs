@@ -69,7 +69,7 @@ namespace _2._1
             }
         }
 
-        public bool ShowFolderTree(TreeView treeView, TreeNode currentNode)
+        public bool ShowFolderTree(TreeView treeView, ListView listView, TreeNode currentNode)
         {
             if(currentNode.Text != "This PC")
             {
@@ -90,6 +90,8 @@ namespace _2._1
                             nodeDir = new TreeNode(strName, 5, 6);
                             currentNode.Nodes.Add(nodeDir);
                         }
+                        // Hiển thị nội dung của thư mục đang lựa trên listView
+                        ShowContent(listView, currentNode);
                     }
                     return true;
                 }
@@ -119,6 +121,72 @@ namespace _2._1
             string[] strSplit = strPath.Split('\\');
             int maxIndex = strSplit.Length;
             return strSplit[maxIndex - 1];
+        }
+
+        public void ShowContent(ListView listView, TreeNode currentNode)
+        {
+            try
+            {
+                // Xóa các item ListView
+                listView.Items.Clear();
+                ListViewItem item;
+                DirectoryInfo directory = GetPathDir(currentNode);
+                // Thông tin các thư mục
+                foreach (DirectoryInfo folder in directory.GetDirectories())
+                {
+                    item = GetLVItems(folder);
+                    listView.Items.Add(item);
+                }
+                // Thông tin các file
+                foreach (FileInfo file in directory.GetFiles())
+                {
+                    item = GetLVItems(file);
+                    listView.Items.Add(item);
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
+            }
+        }
+
+        public ListViewItem GetLVItems(DirectoryInfo folder)
+        {
+            string[] item = new string[5];
+            item[0] = folder.Name;
+            item[1] = "Folder";
+            item[2] = folder.CreationTime.ToString();
+            item[3] = folder.LastWriteTime.ToString();
+            item[4] = folder.FullName;
+            ListViewItem LVItem = new ListViewItem(item);
+            return LVItem;
+        }
+
+        public ListViewItem GetLVItems(FileInfo file)
+        {
+            long size = 0;
+            string[] s =
+                {
+                    file.Name, file.Extension.ToUpper(),
+                    size + "KB", file.LastWriteTime.ToString(),
+                    file.FullName, file.Directory.FullName
+                };
+            string[] item = new string[5];
+            item[0] = file.Name;
+            item[1] = (file.Length / 1024).ToString() + "KB";
+            item[2] = file.CreationTime.ToString();
+            item[3] = file.LastWriteTime.ToString();
+            item[4] = file.FullName;
+            ListViewItem LVitem = new ListViewItem(item);
+            return LVitem;
+        }
+        public DirectoryInfo GetPathDir(TreeNode currentNode)
+        {
+            string[] strList = currentNode.FullPath.Split('\\');
+            string strPath = strList.GetValue(1).ToString(); //+"\\";
+            for(int i = 2; i<strList.Length; i++)
+                strPath += strList.GetValue(i) + "\\";
+            return new DirectoryInfo(strPath);
         }
     }
 }

@@ -28,7 +28,7 @@ namespace _2._1
             // Lấy ổ đĩa hoặc thư mục đang được chọn
             TreeNode currentNode = e.Node;
             if (currentNode.Text != "This PC")
-                clsTreeListView.ShowFolderTree(this.treeView, currentNode);
+                clsTreeListView.ShowFolderTree(this.treeView, this.listView, currentNode);
         }
     }
 }

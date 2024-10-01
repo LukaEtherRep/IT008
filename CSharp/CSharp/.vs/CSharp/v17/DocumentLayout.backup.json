@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\CSharp\\CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5802E17-2888-43DE-8D73-61D71E8E9204}|1.1\\1.1.csproj|c:\\users\\acer\\source\\dhcode\\it008_1\\giao_trinh\\csharp\\csharp\\1.1\\0_program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5802E17-2888-43DE-8D73-61D71E8E9204}|1.1\\1.1.csproj|solutionrelative:1.1\\0_program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5802E17-2888-43DE-8D73-61D71E8E9204}|1.1\\1.1.csproj|c:\\users\\acer\\source\\dhcode\\it008_1\\giao_trinh\\csharp\\csharp\\1.1\\0_class_abstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5802E17-2888-43DE-8D73-61D71E8E9204}|1.1\\1.1.csproj|solutionrelative:1.1\\0_class_abstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5802E17-2888-43DE-8D73-61D71E8E9204}|1.1\\1.1.csproj|c:\\users\\acer\\source\\dhcode\\it008_1\\giao_trinh\\csharp\\csharp\\1.1\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,8 +34,8 @@
               "Title": "Circle.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\CSharp\\CSharp\\1.1\\Circle.cs",
               "RelativeDocumentMoniker": "1.1\\Circle.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\CSharp\\CSharp\\1.1\\Circle.cs*",
-              "RelativeToolTip": "1.1\\Circle.cs*",
+              "ToolTip": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\CSharp\\CSharp\\1.1\\Circle.cs",
+              "RelativeToolTip": "1.1\\Circle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T12:53:13.964Z",
@@ -57,12 +57,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "0_Program.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\CSharp\\CSharp\\1.1\\0_Program.cs",
-              "RelativeDocumentMoniker": "1.1\\0_Program.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\CSharp\\CSharp\\1.1\\0_Program.cs",
-              "RelativeToolTip": "1.1\\0_Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Title": "0_Class_Abstract.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\CSharp\\CSharp\\1.1\\0_Class_Abstract.cs",
+              "RelativeDocumentMoniker": "1.1\\0_Class_Abstract.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\CSharp\\CSharp\\1.1\\0_Class_Abstract.cs",
+              "RelativeToolTip": "1.1\\0_Class_Abstract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T12:43:20.537Z",
               "EditorCaption": ""

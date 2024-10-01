@@ -29,10 +29,15 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.splitContainer = new System.Windows.Forms.SplitContainer();
             this.treeView = new System.Windows.Forms.TreeView();
-            this.listView = new System.Windows.Forms.ListView();
             this.imglstTreeView = new System.Windows.Forms.ImageList(this.components);
+            this.listView = new System.Windows.Forms.ListView();
+            this.colName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colSize = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colDateCreated = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colDateModified = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer)).BeginInit();
             this.splitContainer.Panel1.SuspendLayout();
             this.splitContainer.Panel2.SuspendLayout();
@@ -68,8 +73,19 @@
             this.treeView.TabIndex = 0;
             this.treeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView_AfterSelect);
             // 
+            // imglstTreeView
+            // 
+            this.imglstTreeView.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imglstTreeView.ImageStream")));
+            this.imglstTreeView.TransparentColor = System.Drawing.Color.Transparent;
+            this.imglstTreeView.Images.SetKeyName(0, "this_pc_icon__windows_11__by_satellitedish555_dgv3zid.png");
+            // 
             // listView
             // 
+            this.listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.colName,
+            this.colSize,
+            this.colDateCreated,
+            this.colDateModified});
             this.listView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listView.HideSelection = false;
             this.listView.Location = new System.Drawing.Point(0, 0);
@@ -77,12 +93,29 @@
             this.listView.Size = new System.Drawing.Size(678, 653);
             this.listView.TabIndex = 0;
             this.listView.UseCompatibleStateImageBehavior = false;
+            this.listView.View = System.Windows.Forms.View.Details;
             // 
-            // imglstTreeView
+            // colName
             // 
-            this.imglstTreeView.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
-            this.imglstTreeView.ImageSize = new System.Drawing.Size(16, 16);
-            this.imglstTreeView.TransparentColor = System.Drawing.Color.Transparent;
+            this.colName.Text = "Name";
+            this.colName.Width = 200;
+            // 
+            // colSize
+            // 
+            this.colSize.Text = "Size";
+            this.colSize.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.colSize.Width = 80;
+            // 
+            // colDateCreated
+            // 
+            this.colDateCreated.Text = "Date Created";
+            this.colDateCreated.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.colDateCreated.Width = 100;
+            // 
+            // colDateModified
+            // 
+            this.colDateModified.Text = "Date Modified";
+            this.colDateModified.Width = 100;
             // 
             // FrmMain
             // 
@@ -108,6 +141,10 @@
         private System.Windows.Forms.TreeView treeView;
         private System.Windows.Forms.ListView listView;
         private System.Windows.Forms.ImageList imglstTreeView;
+        private System.Windows.Forms.ColumnHeader colName;
+        private System.Windows.Forms.ColumnHeader colSize;
+        private System.Windows.Forms.ColumnHeader colDateCreated;
+        private System.Windows.Forms.ColumnHeader colDateModified;
     }
 }
 
