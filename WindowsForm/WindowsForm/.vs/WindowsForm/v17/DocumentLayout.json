@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\WindowsForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B5596A3-A1E8-4307-B084-583F0B2684AC}|2.1\\WindowExplorer.csproj|C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\WindowsForm\\2.1\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5B5596A3-A1E8-4307-B084-583F0B2684AC}|2.1\\WindowExplorer.csproj|solutionrelative:2.1\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B5596A3-A1E8-4307-B084-583F0B2684AC}|2.1\\WindowExplorer.csproj|c:\\users\\acer\\source\\dhcode\\it008_1\\giao_trinh\\windowsform\\windowsform\\2.1\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B5596A3-A1E8-4307-B084-583F0B2684AC}|2.1\\WindowExplorer.csproj|solutionrelative:2.1\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B5596A3-A1E8-4307-B084-583F0B2684AC}|2.1\\WindowExplorer.csproj|C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\WindowsForm\\2.1\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B5596A3-A1E8-4307-B084-583F0B2684AC}|2.1\\WindowExplorer.csproj|solutionrelative:2.1\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B5596A3-A1E8-4307-B084-583F0B2684AC}|2.1\\WindowExplorer.csproj|C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\WindowsForm\\2.1\\clstreelistview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -59,20 +59,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FrmMain.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\WindowsForm\\2.1\\FrmMain.cs",
               "RelativeDocumentMoniker": "2.1\\FrmMain.cs",
               "ToolTip": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\WindowsForm\\2.1\\FrmMain.cs",
               "RelativeToolTip": "2.1\\FrmMain.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAArwBkAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAvwC4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T06:41:16.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmMain.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\WindowsForm\\2.1\\FrmMain.cs",
               "RelativeDocumentMoniker": "2.1\\FrmMain.cs",
@@ -90,9 +90,10 @@
               "RelativeDocumentMoniker": "2.1\\ClsTreeListView.cs",
               "ToolTip": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\WindowsForm\\2.1\\ClsTreeListView.cs",
               "RelativeToolTip": "2.1\\ClsTreeListView.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAA+wF0AAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAANQAAAAAAAAAAADwv+kAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T06:03:29.035Z"
+              "WhenOpened": "2024-09-30T06:03:29.035Z",
+              "EditorCaption": ""
             }
           ]
         }

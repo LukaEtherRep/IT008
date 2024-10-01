@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Management;
 using System.IO;
+using System.Diagnostics;
 
 
 namespace _2._1
@@ -187,6 +188,50 @@ namespace _2._1
             for(int i = 2; i<strList.Length; i++)
                 strPath += strList.GetValue(i) + "\\";
             return new DirectoryInfo(strPath);
+        }
+
+        public bool ClickItem(ListView listView, ListViewItem LVitem)
+        {
+            try
+            {
+                string path = LVitem.SubItems[4].Text;
+                FileInfo fi = new FileInfo(path);
+                if (fi.Exists)
+                {
+                    Process.Start(path);
+                }
+                else
+                {
+                    ListViewItem item;
+                    DirectoryInfo directory = new DirectoryInfo(path + "\\");
+                    if (!directory.Exists)
+                    {
+                        MessageBox.Show("Không tồn tại thư mục", "Lỗi",
+                                         MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return false;
+                    }
+                    // Xóa các item ListView
+                    listView.Items.Clear();
+                    // Thông tin các thư mục
+                    foreach (DirectoryInfo folder in directory.GetDirectories())
+                    {
+                        item = GetLVItems(folder);
+                        listView.Items.Add(item);
+                    }
+                    // Thông tin các file
+                    foreach (FileInfo file in directory.GetFiles())
+                    {
+                        item = GetLVItems(file);
+                        listView.Items.Add(item);
+                    }
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return false;
         }
     }
 }
