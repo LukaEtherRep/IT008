@@ -4,3 +4,5 @@
 ### Do: Nhà Xuất Bản Đại Học Quốc Gia TP.Hồ Chí Minh
 Lưu ý, bộ code này chỉ được dùng trên Visual Studio.
 Clone các folder xuống rồi add project vào Visual Studio.
+
+Mỗi project sau này làm 1 cái ghi chú từng bước thực hiện
