@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{5B5596A3-A1E8-4307-B084-583F0B2684AC}|2.1\\WindowExplorer.csproj|solutionrelative:2.1\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B5596A3-A1E8-4307-B084-583F0B2684AC}|2.1\\WindowExplorer.csproj|C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\2.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B5596A3-A1E8-4307-B084-583F0B2684AC}|2.1\\WindowExplorer.csproj|solutionrelative:2.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B5596A3-A1E8-4307-B084-583F0B2684AC}|2.1\\WindowExplorer.csproj|c:\\users\\acer\\source\\dhcode\\it008_1\\giao_trinh\\windowsform\\2.1\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5596A3-A1E8-4307-B084-583F0B2684AC}|2.1\\WindowExplorer.csproj|solutionrelative:2.1\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B5596A3-A1E8-4307-B084-583F0B2684AC}|2.1\\WindowExplorer.csproj|c:\\users\\acer\\source\\dhcode\\it008_1\\giao_trinh\\windowsform\\2.1\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5596A3-A1E8-4307-B084-583F0B2684AC}|2.1\\WindowExplorer.csproj|solutionrelative:2.1\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +22,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\2.1\\Program.cs",
-              "RelativeDocumentMoniker": "2.1\\Program.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\2.1\\Program.cs",
-              "RelativeToolTip": "2.1\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAODMzMzPbvw8AAAAJAAAAAAAAAA==",
+              "Title": "FrmMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\2.1\\FrmMain.Designer.cs",
+              "RelativeDocumentMoniker": "2.1\\FrmMain.Designer.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\2.1\\FrmMain.Designer.cs*",
+              "RelativeToolTip": "2.1\\FrmMain.Designer.cs*",
+              "ViewState": "AgIAAPsBAAAAAAAAAADgvwYCAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:54:05.673Z"
+              "WhenOpened": "2024-10-09T03:11:29.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\2.1\\FrmMain.cs",
+              "RelativeDocumentMoniker": "2.1\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\2.1\\FrmMain.cs*",
+              "RelativeToolTip": "2.1\\FrmMain.cs*",
+              "ViewState": "AgIAACkAAAAAAAAAAAAvwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T03:10:20.713Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -38,8 +64,8 @@
               "Title": "FrmMain.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\2.1\\FrmMain.cs",
               "RelativeDocumentMoniker": "2.1\\FrmMain.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\2.1\\FrmMain.cs [Design]",
-              "RelativeToolTip": "2.1\\FrmMain.cs [Design]",
+              "ToolTip": "C:\\Users\\ACER\\source\\DHCode\\IT008_1\\Giao_Trinh\\WindowsForm\\2.1\\FrmMain.cs [Design]*",
+              "RelativeToolTip": "2.1\\FrmMain.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T07:40:58.521Z",
               "EditorCaption": " [Design]"
