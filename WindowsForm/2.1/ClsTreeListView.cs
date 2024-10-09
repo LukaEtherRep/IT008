@@ -151,6 +151,43 @@ namespace _2._1
             }
         }
 
+        public bool ShowContent(ListView listView, string strPath)
+        {
+            try
+            {
+                // Kiểm tra đường dẫn
+                if (!strPath.EndsWith("\\"))
+                    strPath += "\\";
+                ListViewItem item;
+                DirectoryInfo directory = new DirectoryInfo(strPath);
+                if(!directory.Exists)
+                {
+                    MessageBox.Show("Thư mục không tồn tại", "Lỗi");
+                    return false;
+                }
+                // Xóa các item ListView
+                listView.Items.Clear();
+                // Thông tin các thư mục
+                foreach(DirectoryInfo folder in directory.GetDirectories())
+                {
+                    item = GetLVItems(folder);
+                    listView.Items.Add(item);
+                }
+                // Thông tin các file
+                foreach(FileInfo file in directory.GetFiles())
+                {
+                    item = GetLVItems(file);
+                    listView.Items.Add(item);
+                }
+                return true;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
+            }
+            return false;
+        }
+
         public ListViewItem GetLVItems(DirectoryInfo folder)
         {
             string[] item = new string[5];

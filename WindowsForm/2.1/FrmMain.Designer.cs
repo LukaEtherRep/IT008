@@ -35,7 +35,7 @@
             this.imglstTreeView = new System.Windows.Forms.ImageList(this.components);
             this.listView = new System.Windows.Forms.ListView();
             this.colName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colSize = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colType = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colDateCreated = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colDateModified = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.toolbar = new System.Windows.Forms.ToolStrip();
@@ -134,7 +134,7 @@
             // 
             this.listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.colName,
-            this.colSize,
+            this.colType,
             this.colDateCreated,
             this.colDateModified});
             this.listView.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -145,6 +145,7 @@
             this.listView.TabIndex = 0;
             this.listView.UseCompatibleStateImageBehavior = false;
             this.listView.View = System.Windows.Forms.View.Details;
+            this.listView.SizeChanged += new System.EventHandler(this.listView_SizeChanged);
             this.listView.DoubleClick += new System.EventHandler(this.listView_DoubleClick);
             this.listView.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.listView_KeyPress);
             // 
@@ -153,11 +154,11 @@
             this.colName.Text = "Name";
             this.colName.Width = 200;
             // 
-            // colSize
+            // colType
             // 
-            this.colSize.Text = "Size";
-            this.colSize.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.colSize.Width = 80;
+            this.colType.Text = "Type";
+            this.colType.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.colType.Width = 80;
             // 
             // colDateCreated
             // 
@@ -229,6 +230,7 @@
             // 
             // tsbtnPaste
             // 
+            this.tsbtnPaste.Enabled = false;
             this.tsbtnPaste.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnPaste.Image")));
             this.tsbtnPaste.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbtnPaste.Name = "tsbtnPaste";
@@ -305,6 +307,7 @@
             // 
             this.tscmbPath.Name = "tscmbPath";
             this.tscmbPath.Size = new System.Drawing.Size(400, 32);
+            this.tscmbPath.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tscmbPath_KeyPress);
             // 
             // tsbtnGo
             // 
@@ -313,6 +316,7 @@
             this.tsbtnGo.Name = "tsbtnGo";
             this.tsbtnGo.Size = new System.Drawing.Size(59, 29);
             this.tsbtnGo.Text = "GO";
+            this.tsbtnGo.Click += new System.EventHandler(this.tsbtnGo_Click);
             // 
             // BottomToolStripPanel
             // 
@@ -435,8 +439,9 @@
             // 
             this.menuCopy.Name = "menuCopy";
             this.menuCopy.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.menuCopy.Size = new System.Drawing.Size(177, 26);
+            this.menuCopy.Size = new System.Drawing.Size(224, 26);
             this.menuCopy.Text = "&Copy";
+            this.menuCopy.Click += new System.EventHandler(this.menuCopy_Click);
             // 
             // menuCut
             // 
@@ -447,9 +452,10 @@
             // 
             // menuPaste
             // 
+            this.menuPaste.Enabled = false;
             this.menuPaste.Name = "menuPaste";
             this.menuPaste.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.menuPaste.Size = new System.Drawing.Size(177, 26);
+            this.menuPaste.Size = new System.Drawing.Size(224, 26);
             this.menuPaste.Text = "&Paste";
             // 
             // menuView
@@ -539,7 +545,7 @@
         private System.Windows.Forms.ImageList imglstTreeView;
         private System.Windows.Forms.ListView listView;
         private System.Windows.Forms.ColumnHeader colName;
-        private System.Windows.Forms.ColumnHeader colSize;
+        private System.Windows.Forms.ColumnHeader colType;
         private System.Windows.Forms.ColumnHeader colDateCreated;
         private System.Windows.Forms.ColumnHeader colDateModified;
         private System.Windows.Forms.ToolStrip toolbar;
